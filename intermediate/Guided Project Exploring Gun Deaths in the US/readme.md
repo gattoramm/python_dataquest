@@ -13,7 +13,7 @@ The dataset came from [FiveThirtyEight](https://www.fivethirtyeight.com/), and c
 As you can see above, the first row of the data is a header row, which tells you what kind of data is in each column of the CSV file. Each row contains information about the fatality, and the victim. Here's an explanation of each column:
 
 - `№` -- this is an identifier column, which contains the row number. It's common in CSV files to include a unique identifier for each row, but we can ignore it in this analysis.
-- `**year**` -- the year in which the fatality occurred.
+- `*year*` -- the year in which the fatality occurred.
 - `month` -- the month in which the fatality occurred.
 - `intent` -- the intent of the perpetrator of the crime. This can be Suicide, Accidental, NA, Homicide, or Undetermined.
 - `police` -- whether a police officer was involved with the shooting. Either 0 (false) or 1 (true).
