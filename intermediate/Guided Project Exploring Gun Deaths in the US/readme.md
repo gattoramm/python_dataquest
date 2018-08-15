@@ -30,3 +30,5 @@ As you can see above, the first row of the data is a header row, which tells you
   - `5` -- Not available
 
 In this project, we'll explore the dataset, and try to find patterns in the demographics of the victims. Our first step is to read the data in and take a look at it.
+
+We explored gun deaths by race in the past screen. However, our analysis only gives us the total number of gun deaths by race in the US. Unless we know the proportion of each race in the US, we won't be able to meaningfully compare those numbers. What we really want to get is a rate of gun deaths per **100000** people of each race. In order to do this, we'll need to read in data about what percentage of the US population falls into each racial category. Luckily, we can import some census data to help us out.
