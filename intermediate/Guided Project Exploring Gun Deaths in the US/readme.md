@@ -5,7 +5,5 @@ The dataset came from [FiveThirtyEight](https://www.fivethirtyeight.com/), and c
  | year | month | intent | police | sex | age | race | hispanic | place | education
 ---|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------
 `1` | 2012 | 1 | Suicide | 0 | M | 34.0 | Asian/Pacific Islander | 100 | Home | 4.0
-`2` | 2012
-`3` | 2012
-`4` | 2012
-`5` | 2012
+
+
