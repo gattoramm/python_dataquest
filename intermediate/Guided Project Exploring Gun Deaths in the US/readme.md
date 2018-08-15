@@ -32,3 +32,13 @@ As you can see above, the first row of the data is a header row, which tells you
 In this project, we'll explore the dataset, and try to find patterns in the demographics of the victims. Our first step is to read the data in and take a look at it.
 
 We explored gun deaths by race in the past screen. However, our analysis only gives us the total number of gun deaths by race in the US. Unless we know the proportion of each race in the US, we won't be able to meaningfully compare those numbers. What we really want to get is a rate of gun deaths per **100000** people of each race. In order to do this, we'll need to read in data about what percentage of the US population falls into each racial category. Luckily, we can import some census data to help us out.
+
+The data contains information on the total population of the US, as well as the total population of each racial group in the US. The data is stored in the **census.csv** file, and only consists of two rows:
+
+№ | Id | Year | Id.1 | Sex | Id.2 | Hispanic Origin | Id.3 | Id2 | Geography | Total | Race Alone - White | Race Alone - Hispanic | Race Alone - Black or African American | Race Alone - American Indian and Alaska Native | Race Alone - Asian | Race Alone - Native Hawaiian and Other Pacific Islander | Two or More Races
+---|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------
+`1` | 2012 | 1 | Suicide | 0 | M | 34.0 | Asian/Pacific Islander | 100 | Home | 4.0
+`2` | 2012 | 1 | Suicide | 0 | F | 21.0 | White | 100 | Street | 3.0
+`3` | 2012 | 1 | Suicide | 0 | M | 60.0 | White | 100 | Other specified | 4.0
+`4` | 2012 | 1 | Suicide | 0 | M | 64.0 | White | 100 | Home | 4.0
+`5` | 2012 | 1 | Suicide | 0 | M | 31.0 | White | 100 | Other specified | 2.0
