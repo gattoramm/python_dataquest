@@ -7,6 +7,6 @@ The dataset came from [FiveThirtyEight](https://www.fivethirtyeight.com/), and c
 `1` | 2012 | 1 | Suicide | 0 | M | 34.0 | Asian/Pacific Islander | 100 | Home | 4.0
 
 
-Header | Definition
+ | year
 ---|---------
-`1` | Year
+`1` | 2012
