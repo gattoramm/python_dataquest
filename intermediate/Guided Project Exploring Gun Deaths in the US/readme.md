@@ -37,8 +37,7 @@ The data contains information on the total population of the US, as well as the 
 
 № | Id | Year | Id.1 | Sex | Id.2 | Hispanic Origin | Id.3 | Id2 | Geography | Total | Race Alone - White | Race Alone - Hispanic | Race Alone - Black or African American | Race Alone - American Indian and Alaska Native | Race Alone - Asian | Race Alone - Native Hawaiian and Other Pacific Islander | Two or More Races
 ---|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------
-`1` | 2012 | 1 | Suicide | 0 | M | 34.0 | Asian/Pacific Islander | 100 | Home | 4.0
-`2` | 2012 | 1 | Suicide | 0 | F | 21.0 | White | 100 | Street | 3.0
-`3` | 2012 | 1 | Suicide | 0 | M | 60.0 | White | 100 | Other specified | 4.0
-`4` | 2012 | 1 | Suicide | 0 | M | 64.0 | White | 100 | Home | 4.0
-`5` | 2012 | 1 | Suicide | 0 | M | 31.0 | White | 100 | Other specified | 2.0
+`0` | cen42010 | April 1, 2010 Census | totsex | Both Sexes | tothisp | Total | 0100000US | NaN | United States | 308745538 | 197318956 | 44618105 | 40250635 | 3739506 | 15159516 | 674625 | 6984195
+
+
+
