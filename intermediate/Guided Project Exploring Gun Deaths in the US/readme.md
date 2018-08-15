@@ -10,4 +10,6 @@ The dataset came from [FiveThirtyEight](https://www.fivethirtyeight.com/), and c
 `4` | 2012 | 1 | Suicide | 0 | M | 64.0 | White | 100 | Home | 4.0
 `5` | 2012 | 1 | Suicide | 0 | M | 31.0 | White | 100 | Other specified | 2.0
 
+As you can see above, the first row of the data is a header row, which tells you what kind of data is in each column of the CSV file. Each row contains information about the fatality, and the victim. Here's an explanation of each column:
 
+- `№` -- this is an identifier column, which contains the row number. It's common in CSV files to include a unique identifier for each row, but we can ignore it in this analysis.
